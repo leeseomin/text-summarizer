@@ -14,7 +14,7 @@ A program to import a text file and summarize it (usually in English). Text can 
 
   <br/> <br/><br/> 
   
-###  Dependency (Tested on an M1 Mac) : cpu version
+##  Dependency (Tested on an M1 Mac) : cpu version
 
 
 ``` conda install pytorch torchvision torchaudio -c pytorch ```
@@ -44,13 +44,17 @@ pip install --editable ./
  <br/><br/> 
  
  
-### Key Features
+## Key Features
 
 
+Import text by importing or pasting and summarize it using BART.
+
+
+텍스트를 불러오거나 붙여넣기해서 가져와서  BART를 사용해서 요약.
  
  
  
-### Run Code 
+## Run Code 
 
 ```python v_01.py``` 
 
@@ -68,6 +72,7 @@ Large files produce strange results when using the text summarization function.
 
 
 Web app
+
 
 
 
