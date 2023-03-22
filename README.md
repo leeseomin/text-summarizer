@@ -1,13 +1,13 @@
 # text-summarizer
 
 
-text 파일을 불러와서  이것을 요약하는 프로그램. 텍스트 붙여넣기로 텍스트 가져오기 가능 <br/> 
+text 파일을 불러와서 (주로 영어로된)  이것을 요약하는 프로그램. 텍스트 붙여넣기로 텍스트 가져오기 가능 <br/> 
 
 
 
 <br/> 
 
-![대표](https://github.com/leeseomin/PDF-summarizer/blob/main/pic/1.png)
+![대표](https://github.com/leeseomin/text-summarizer/blob/main/pic/1.png)
 
 
 
