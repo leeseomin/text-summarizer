@@ -2,6 +2,7 @@
 
 
 text 파일을 불러와서 (주로 영어로된)  이것을 요약하는 프로그램. 텍스트 붙여넣기로 텍스트 가져오기 가능 <br/> 
+A program to import a text file and summarize it (usually in English). Text can be imported by pasting text  <br/> 
 
 
 
