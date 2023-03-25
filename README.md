@@ -14,13 +14,19 @@ A program to import a text file and summarize it (usually in English). Text can 
 
   <br/> <br/><br/> 
   
-##  Dependency (Tested on an M1 Mac) : cpu version
+###  Dependency (Tested on an M1 Mac) : cpu version
 
 
 ``` conda install pytorch torchvision torchaudio -c pytorch ```
 
+```pip install pdfminer.six``` 
 
-```pip install spacy```
+```
+pip install spacy
+
+python -m spacy download en_core_web_sm
+```
+
 
 
 fairseq install on mac osx
@@ -33,7 +39,14 @@ cd fairseq
 CFLAGS="-stdlib=libc++" pip install --editable ./
 ``` 
 
-fairseq install 
+If the above installation doesn't work on Mac, try installing from conda base.
+
+fairseq install using conda 
+
+```conda install -c conda-forge fairseq```
+
+
+fairseq install from source 
 ```
 git clone https://github.com/pytorch/fairseq
 cd fairseq
