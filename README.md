@@ -19,7 +19,6 @@ A program to import a text file and summarize it (usually in English). Text can 
 
 ``` conda install pytorch torchvision torchaudio -c pytorch ```
 
-```pip install pdfminer.six``` 
 
 ```
 pip install spacy
